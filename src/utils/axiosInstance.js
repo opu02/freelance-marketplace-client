@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000', // ✅ FIXED
+  baseURL: 'https://freelance-marketplace-server-teal.vercel.app'
 })
 
 export default axiosInstance
